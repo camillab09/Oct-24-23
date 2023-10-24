@@ -1,0 +1,353 @@
+.container {
+  border-radius: 50%;
+  background-image: radial-gradient(rgb(132, 132, 189), rgb(89, 122, 165));
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "box1 box2 box3 box4 box5 box6 box7 box8 box9 boxa box11 box12 box13 box13 box14 box15 box16 box17 box18 box19 box20";
+}
+.box1 {
+  grid-area: box1;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3s 0.5s linear infinite snow1;
+}
+@keyframes snow1 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box2 {
+  grid-area: box2;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4s 0.4s linear infinite snow2;
+}
+@keyframes snow2 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box3 {
+  grid-area: box3;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.7s 0.7s linear infinite snow3;
+}
+@keyframes snow3 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box4 {
+  grid-area: box4;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.5s 1s linear infinite snow4;
+}
+@keyframes snow4 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box5 {
+  grid-area: box5;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.5s 0.5s linear infinite snow5;
+}
+@keyframes snow5 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box6 {
+  grid-area: box6;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4.2s 0.2s linear infinite snow6;
+}
+@keyframes snow6 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box7 {
+  grid-area: box7;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.5s 0.25s linear infinite snow7;
+}
+@keyframes snow7 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box8 {
+  grid-area: box8;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4.25s 0.2s linear infinite snow8;
+}
+@keyframes snow8 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box9 {
+  grid-area: box9;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.2s 0.5s linear infinite snow9;
+}
+@keyframes snow9 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.boxa {
+  grid-area: boxa;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4.2s 1s linear infinite snowa;
+}
+@keyframes snowa {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box11 {
+  grid-area: box11;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.75s 0.1s linear infinite snow11;
+}
+@keyframes snow11 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box12 {
+  grid-area: box12;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4.25s 0.3s linear infinite snow12;
+}
+@keyframes snow12 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box13 {
+  grid-area: box13;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3s 0.2s linear infinite snow13;
+}
+@keyframes snow13 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box14 {
+  grid-area: box14;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4s 0.25s linear infinite snow14;
+}
+@keyframes snow14 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box15 {
+  grid-area: box15;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3s 0.5s linear infinite snow15;
+}
+@keyframes snow15 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box16 {
+  grid-area: box16;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3s 1s linear infinite snow16;
+}
+@keyframes snow16 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box17 {
+  grid-area: box17;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4.25s 0.25s linear infinite snow17;
+}
+@keyframes snow17 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box18 {
+  grid-area: box18;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 3.5s 0.5s linear infinite snow18;
+}
+@keyframes snow18 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box19 {
+  grid-area: box19;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 5s 0.5s linear infinite snow19;
+}
+@keyframes snow19 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.box20 {
+  grid-area: box20;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  animation: 4s 1s linear infinite snow20;
+}
+@keyframes snow20 {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 500px;
+  }
+}
